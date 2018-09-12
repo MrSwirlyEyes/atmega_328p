@@ -458,6 +458,93 @@
 </device>
 </devices>
 </deviceset>
+<deviceset name="0.1UF" prefix="C" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="CAPACITOR_NON-POLARIZED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_SMD-0402_50V-10%" package="CAPC1005X55_SMD-0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2886515/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_soft_en.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=445-173610-1-ND" constant="no"/>
+<attribute name="DISTPN" value="445-173610-1-ND" constant="no"/>
+<attribute name="MFR" value="TDK Corporation" constant="no"/>
+<attribute name="MPN" value="C1005X7R1H104K050BE" constant="no"/>
+<attribute name="VALUE" value="0.1uF/50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_SMD-0805_35V-10%" package="CAPC2012X95_SMD-0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2940050/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=GMK212BJ104KGHT&amp;fileName=GMK212BJ104KGHT_SS&amp;mode=specSheetDownload" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=587-3364-1-ND" constant="no"/>
+<attribute name="DISTPN" value="587-3364-1-ND" constant="no"/>
+<attribute name="MFR" value="Taiyo Yuden" constant="no"/>
+<attribute name="MPN" value="GMK212BJ104KGHT" constant="no"/>
+<attribute name="VALUE" value="0.1uF/35V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_SMD-0603_50V-20%" package="CAPC1608X95">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:3041595/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="https://product.tdk.com/info/en/catalog/datasheets/mlcc_automotive_hightemp_en.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=445-5885-1-ND" constant="no"/>
+<attribute name="DISTPN" value="445-5885-1-ND" constant="no"/>
+<attribute name="MFR" value="TDK Corporation" constant="no"/>
+<attribute name="MPN" value="CGA3E2X8R1E104K080AA" constant="no"/>
+<attribute name="VALUE" value="0.1uF/25V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_PTH-CER_50V-10%" package="_CER_PTH_LS2.5_L4-W2.5-H5.58">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:4945609/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="http://www.vishay.com/docs/45171/kseries.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=BC1084CT-ND" constant="no"/>
+<attribute name="DISTPN" value="BC1084CT-ND" constant="no"/>
+<attribute name="MFR" value="Vishay BC Components" constant="no"/>
+<attribute name="MPN" value="K104K15X7RF5TL2" constant="no"/>
+<attribute name="VALUE" value="0.1uF/50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="PiB_ic_microcontrollers">
@@ -1015,6 +1102,7 @@
 <part name="SUPPLY4" library="PiB_power_symbols" deviceset="5V" device=""/>
 <part name="FTDI1" library="PiB_connectors" deviceset="FTDI" device="_PTH_VERT_MALE_2.54MM" package3d_urn="urn:adsk.eagle:package:4861768/1" value="FTDI"/>
 <part name="SUPPLY2" library="PiB_power_symbols" deviceset="GND" device=""/>
+<part name="C3" library="PiB_capacitors" deviceset="0.1UF" device="_PTH-CER_50V-10%" package3d_urn="urn:adsk.eagle:package:4945609/2" value="0.1uF/50V"/>
 </parts>
 <sheets>
 <sheet>
@@ -1029,9 +1117,10 @@ requiring user to power the microcontroller.</text>
 <instance part="C1" gate="G$1" x="78.74" y="33.02" rot="R90"/>
 <instance part="C2" gate="G$1" x="78.74" y="22.86" rot="R90"/>
 <instance part="SUPPLY6" gate="GND" x="68.58" y="22.86"/>
-<instance part="SUPPLY4" gate="5V" x="86.36" y="66.04"/>
-<instance part="FTDI1" gate="G$1" x="205.74" y="40.64"/>
-<instance part="SUPPLY2" gate="GND" x="213.36" y="27.94"/>
+<instance part="SUPPLY4" gate="5V" x="76.2" y="66.04"/>
+<instance part="FTDI1" gate="G$1" x="200.66" y="40.64"/>
+<instance part="SUPPLY2" gate="GND" x="208.28" y="27.94"/>
+<instance part="C3" gate="G$1" x="215.9" y="43.18" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -1057,8 +1146,8 @@ requiring user to power the microcontroller.</text>
 </segment>
 <segment>
 <pinref part="FTDI1" gate="G$1" pin="GND"/>
-<wire x1="213.36" y1="33.02" x2="210.82" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="30.48" x2="213.36" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="33.02" x2="205.74" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="30.48" x2="208.28" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="SUPPLY2" gate="GND" pin="GND"/>
 </segment>
 </net>
@@ -1086,13 +1175,13 @@ requiring user to power the microcontroller.</text>
 </net>
 <net name="5V" class="0">
 <segment>
-<wire x1="88.9" y1="60.96" x2="86.36" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="60.96" x2="86.36" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="60.96" x2="76.2" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="60.96" x2="76.2" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="MCU1" gate="G$1" pin="VCC"/>
 <pinref part="MCU1" gate="G$1" pin="AVCC"/>
-<wire x1="88.9" y1="58.42" x2="86.36" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="58.42" x2="86.36" y2="60.96" width="0.1524" layer="91"/>
-<junction x="86.36" y="60.96"/>
+<wire x1="88.9" y1="58.42" x2="76.2" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="58.42" x2="76.2" y2="60.96" width="0.1524" layer="91"/>
+<junction x="76.2" y="60.96"/>
 <pinref part="SUPPLY4" gate="5V" pin="5V"/>
 </segment>
 </net>
@@ -1104,8 +1193,8 @@ requiring user to power the microcontroller.</text>
 </segment>
 <segment>
 <pinref part="FTDI1" gate="G$1" pin="RXI"/>
-<wire x1="213.36" y1="40.64" x2="210.82" y2="40.64" width="0.1524" layer="91"/>
-<label x="213.36" y="40.64" size="1.27" layer="95" font="vector" ratio="10" xref="yes"/>
+<wire x1="208.28" y1="40.64" x2="205.74" y2="40.64" width="0.1524" layer="91"/>
+<label x="208.28" y="40.64" size="1.27" layer="95" font="vector" ratio="10" xref="yes"/>
 </segment>
 </net>
 <net name="RX" class="0">
@@ -1116,8 +1205,27 @@ requiring user to power the microcontroller.</text>
 </segment>
 <segment>
 <pinref part="FTDI1" gate="G$1" pin="TXO"/>
-<wire x1="213.36" y1="38.1" x2="210.82" y2="38.1" width="0.1524" layer="91"/>
-<label x="213.36" y="38.1" size="1.27" layer="95" font="vector" ratio="10" xref="yes"/>
+<wire x1="208.28" y1="38.1" x2="205.74" y2="38.1" width="0.1524" layer="91"/>
+<label x="208.28" y="38.1" size="1.27" layer="95" font="vector" ratio="10" xref="yes"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="FTDI1" gate="G$1" pin="DTR"/>
+<wire x1="213.36" y1="43.18" x2="205.74" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="C3" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="RESET" class="0">
+<segment>
+<pinref part="C3" gate="G$1" pin="2"/>
+<wire x1="223.52" y1="43.18" x2="220.98" y2="43.18" width="0.1524" layer="91"/>
+<label x="223.52" y="43.18" size="1.27" layer="95" font="vector" ratio="10" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MCU1" gate="G$1" pin="PC6(D22*/PCINT14/!RESET!)"/>
+<wire x1="86.36" y1="63.5" x2="88.9" y2="63.5" width="0.1524" layer="91"/>
+<label x="86.36" y="63.5" size="1.27" layer="95" font="vector" ratio="10" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
