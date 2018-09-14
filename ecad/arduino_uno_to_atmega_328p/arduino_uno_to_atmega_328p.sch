@@ -433,23 +433,19 @@
 <library name="PiB_capacitors">
 <packages>
 <package name="_AE_PTH-DIA5-LS2-H5" urn="urn:adsk.eagle:footprint:3661711/1" locally_modified="yes">
-<wire x1="-1.524" y1="0" x2="-0.762" y2="0" width="0.1524" layer="51"/>
-<wire x1="-0.762" y1="0" x2="-0.762" y2="-1.016" width="0.1524" layer="51"/>
-<wire x1="-0.762" y1="-1.016" x2="-0.254" y2="-1.016" width="0.1524" layer="51"/>
-<wire x1="-0.254" y1="-1.016" x2="-0.254" y2="1.016" width="0.1524" layer="51"/>
-<wire x1="-0.254" y1="1.016" x2="-0.762" y2="1.016" width="0.1524" layer="51"/>
-<wire x1="-0.762" y1="1.016" x2="-0.762" y2="0" width="0.1524" layer="51"/>
-<wire x1="0.635" y1="0" x2="1.524" y2="0" width="0.1524" layer="51"/>
-<wire x1="-2.286" y1="0" x2="-1.778" y2="0" width="0.1524" layer="21"/>
-<wire x1="-2.032" y1="-0.254" x2="-2.032" y2="0.254" width="0.1524" layer="21"/>
-<wire x1="1.778" y1="0" x2="2.286" y2="0" width="0.1524" layer="21"/>
+<pad name="-" x="1.016" y="0" drill="0.75" diameter="1.5"/>
+<pad name="+" x="-1.016" y="0" drill="0.75" diameter="1.5" shape="square"/>
+<wire x1="-3.556" y1="0" x2="-3.048" y2="0" width="0.1524" layer="21"/>
+<wire x1="-3.302" y1="-0.254" x2="-3.302" y2="0.254" width="0.1524" layer="21"/>
+<wire x1="3.048" y1="0" x2="3.556" y2="0" width="0.1524" layer="21"/>
 <circle x="0" y="0" radius="2.54" width="0.1524" layer="21"/>
-<pad name="-" x="1.016" y="0" drill="0.762" diameter="1.397"/>
-<pad name="+" x="-1.016" y="0" drill="0.762" diameter="1.397" shape="square"/>
-<rectangle x1="0.254" y1="-1.016" x2="0.762" y2="1.016" layer="51"/>
-<text x="0" y="1.524" size="0.6096" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
-<text x="0" y="-1.524" size="0.6096" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
+<text x="0" y="1.016" size="0.5" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.016" size="0.25" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
 <circle x="0" y="0" radius="2.7658625" width="0.127" layer="39"/>
+<wire x1="-2.032" y1="-1.016" x2="2.032" y2="-1.016" width="0.127" layer="40"/>
+<wire x1="2.032" y1="-1.016" x2="2.032" y2="1.016" width="0.127" layer="40"/>
+<wire x1="2.032" y1="1.016" x2="-2.032" y2="1.016" width="0.127" layer="40"/>
+<wire x1="-2.032" y1="1.016" x2="-2.032" y2="-1.016" width="0.127" layer="40"/>
 </package>
 <package name="CAPMP3216X180_SMD_CAP-TANT-1206" urn="urn:adsk.eagle:footprint:3037639/1" locally_modified="yes">
 <description>MOLDED BODY, 3.2 X 1.65 X 1.8 mm body

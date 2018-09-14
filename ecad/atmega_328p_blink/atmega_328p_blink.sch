@@ -777,26 +777,6 @@
 </library>
 <library name="PiB_leds">
 <packages>
-<package name="LEDC1005X40_LED-0402" urn="urn:adsk.eagle:footprint:2899409/2" locally_modified="yes">
-<description>CHIP, 1 X 0.5 X 0.4 mm body
-&lt;p&gt;CHIP package with body size 1 X 0.5 X 0.4 mm&lt;/p&gt;</description>
-<circle x="-1.4299" y="0" radius="0.1" width="0" layer="21"/>
-<wire x1="0.5" y1="0.4409" x2="-0.9809" y2="0.4409" width="0.12" layer="21"/>
-<wire x1="-0.9809" y1="0.4409" x2="-0.9809" y2="-0.4409" width="0.12" layer="21"/>
-<wire x1="-0.9809" y1="-0.4409" x2="0.5" y2="-0.4409" width="0.12" layer="21"/>
-<wire x1="0.5" y1="-0.25" x2="-0.5" y2="-0.25" width="0.12" layer="51"/>
-<wire x1="-0.5" y1="-0.25" x2="-0.5" y2="0.25" width="0.12" layer="51"/>
-<wire x1="-0.5" y1="0.25" x2="0.5" y2="0.25" width="0.12" layer="51"/>
-<wire x1="0.5" y1="0.25" x2="0.5" y2="-0.25" width="0.12" layer="51"/>
-<wire x1="-1.1" y1="-0.6" x2="1.1" y2="-0.6" width="0.127" layer="39"/>
-<wire x1="1.1" y1="-0.6" x2="1.1" y2="0.6" width="0.127" layer="39"/>
-<wire x1="1.1" y1="0.6" x2="-1.1" y2="0.6" width="0.127" layer="39"/>
-<wire x1="-1.1" y1="0.6" x2="-1.1" y2="-0.6" width="0.127" layer="39"/>
-<smd name="A" x="-0.5" y="0" dx="0.4539" dy="0.5539" layer="1" thermals="no"/>
-<smd name="K" x="0.5" y="0" dx="0.4539" dy="0.5539" layer="1" thermals="no"/>
-<text x="0" y="0.6" size="0.5" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-0.6" size="0.25" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
-</package>
 <package name="LEDC1608X80_LED-0603" urn="urn:adsk.eagle:footprint:2959496/2" locally_modified="yes">
 <description>CHIP, 1.6 X 0.8 X 0.8 mm body
 &lt;p&gt;CHIP package with body size 1.6 X 0.8 X 0.8 mm&lt;/p&gt;</description>
@@ -817,26 +797,6 @@
 <text x="0" y="0.8" size="0.5" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-0.8" size="0.25" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
 </package>
-<package name="LEDC2012X120_LED-0805" urn="urn:adsk.eagle:footprint:2966316/2" locally_modified="yes">
-<description>CHIP, 2 X 1.25 X 1.2 mm body
-&lt;p&gt;CHIP package with body size 2 X 1.25 X 1.2 mm&lt;/p&gt;</description>
-<circle x="-2.1176" y="0" radius="0.1" width="0" layer="21"/>
-<wire x1="1.05" y1="0.9036" x2="-1.7186" y2="0.9036" width="0.12" layer="21"/>
-<wire x1="-1.7186" y1="0.9036" x2="-1.7186" y2="-0.9036" width="0.12" layer="21"/>
-<wire x1="-1.7186" y1="-0.9036" x2="1.05" y2="-0.9036" width="0.12" layer="21"/>
-<wire x1="1.05" y1="-0.675" x2="-1.05" y2="-0.675" width="0.12" layer="51"/>
-<wire x1="-1.05" y1="-0.675" x2="-1.05" y2="0.675" width="0.12" layer="51"/>
-<wire x1="-1.05" y1="0.675" x2="1.05" y2="0.675" width="0.12" layer="51"/>
-<wire x1="1.05" y1="0.675" x2="1.05" y2="-0.675" width="0.12" layer="51"/>
-<wire x1="-1.8" y1="-1" x2="1.8" y2="-1" width="0.127" layer="39"/>
-<wire x1="1.8" y1="-1" x2="1.8" y2="1" width="0.127" layer="39"/>
-<wire x1="1.8" y1="1" x2="-1.8" y2="1" width="0.127" layer="39"/>
-<wire x1="-1.8" y1="1" x2="-1.8" y2="-1" width="0.127" layer="39"/>
-<smd name="A" x="-0.9596" y="0" dx="1.01" dy="1.3791" layer="1"/>
-<smd name="K" x="0.9596" y="0" dx="1.01" dy="1.3791" layer="1"/>
-<text x="0" y="1" size="0.5" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1" size="0.25" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
-</package>
 <package name="LED_PTH_T-1_3/4_5MM" urn="urn:adsk.eagle:footprint:4254822/1" locally_modified="yes">
 <wire x1="-1.143" y1="0" x2="0" y2="1.143" width="0.1524" layer="51" curve="-90" cap="flat"/>
 <wire x1="0" y1="-1.143" x2="1.143" y2="0" width="0.1524" layer="51" curve="90" cap="flat"/>
@@ -855,15 +815,48 @@
 <circle x="0" y="0" radius="2.54" width="0.1524" layer="21"/>
 <circle x="0" y="0" radius="3.35" width="0.254" layer="39"/>
 </package>
-</packages>
-<packages3d>
-<package3d name="LEDC1005X40" urn="urn:adsk.eagle:package:2899303/3" locally_modified="yes" type="model">
+<package name="LEDC1005X40_LED-0402" urn="urn:adsk.eagle:footprint:2899409/2" locally_modified="yes">
 <description>CHIP, 1 X 0.5 X 0.4 mm body
 &lt;p&gt;CHIP package with body size 1 X 0.5 X 0.4 mm&lt;/p&gt;</description>
-<packageinstances>
-<packageinstance name="LEDC1005X40_LED-0402"/>
-</packageinstances>
-</package3d>
+<circle x="-1.4299" y="0" radius="0.1" width="0" layer="21"/>
+<wire x1="0.5" y1="0.4409" x2="-0.9809" y2="0.4409" width="0.12" layer="21"/>
+<wire x1="-0.9809" y1="0.4409" x2="-0.9809" y2="-0.4409" width="0.12" layer="21"/>
+<wire x1="-0.9809" y1="-0.4409" x2="0.5" y2="-0.4409" width="0.12" layer="21"/>
+<wire x1="0.5" y1="-0.25" x2="-0.5" y2="-0.25" width="0.12" layer="51"/>
+<wire x1="-0.5" y1="-0.25" x2="-0.5" y2="0.25" width="0.12" layer="51"/>
+<wire x1="-0.5" y1="0.25" x2="0.5" y2="0.25" width="0.12" layer="51"/>
+<wire x1="0.5" y1="0.25" x2="0.5" y2="-0.25" width="0.12" layer="51"/>
+<wire x1="-1.1" y1="-0.6" x2="1.1" y2="-0.6" width="0.127" layer="39"/>
+<wire x1="1.1" y1="-0.6" x2="1.1" y2="0.6" width="0.127" layer="39"/>
+<wire x1="1.1" y1="0.6" x2="-1.1" y2="0.6" width="0.127" layer="39"/>
+<wire x1="-1.1" y1="0.6" x2="-1.1" y2="-0.6" width="0.127" layer="39"/>
+<smd name="A" x="-0.5" y="0" dx="0.4539" dy="0.5539" layer="1"/>
+<smd name="K" x="0.5" y="0" dx="0.4539" dy="0.5539" layer="1"/>
+<text x="0" y="0.6" size="0.5" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.6" size="0.25" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
+</package>
+<package name="LEDC2012X120_LED-0805" urn="urn:adsk.eagle:footprint:2966316/2" locally_modified="yes">
+<description>CHIP, 2 X 1.25 X 1.2 mm body
+&lt;p&gt;CHIP package with body size 2 X 1.25 X 1.2 mm&lt;/p&gt;</description>
+<circle x="-2.286" y="0" radius="0.3" width="0" layer="21"/>
+<wire x1="1.05" y1="0.9036" x2="-1.7186" y2="0.9036" width="0.12" layer="21"/>
+<wire x1="-1.7186" y1="0.9036" x2="-1.7186" y2="-0.9036" width="0.12" layer="21"/>
+<wire x1="-1.7186" y1="-0.9036" x2="1.05" y2="-0.9036" width="0.12" layer="21"/>
+<wire x1="1.05" y1="-0.675" x2="-1.05" y2="-0.675" width="0.12" layer="51"/>
+<wire x1="-1.05" y1="-0.675" x2="-1.05" y2="0.675" width="0.12" layer="51"/>
+<wire x1="-1.05" y1="0.675" x2="1.05" y2="0.675" width="0.12" layer="51"/>
+<wire x1="1.05" y1="0.675" x2="1.05" y2="-0.675" width="0.12" layer="51"/>
+<wire x1="-1.905" y1="-1.016" x2="1.905" y2="-1.016" width="0.127" layer="39"/>
+<wire x1="1.905" y1="-1.016" x2="1.905" y2="1.016" width="0.127" layer="39"/>
+<wire x1="1.905" y1="1.016" x2="-1.905" y2="1.016" width="0.127" layer="39"/>
+<wire x1="-1.905" y1="1.016" x2="-1.905" y2="-1.016" width="0.127" layer="39"/>
+<smd name="A" x="-0.9596" y="0" dx="1.01" dy="1.3791" layer="1"/>
+<smd name="K" x="0.9596" y="0" dx="1.01" dy="1.3791" layer="1"/>
+<text x="0" y="1" size="0.5" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1" size="0.25" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
 <package3d name="LEDC1608X80" urn="urn:adsk.eagle:package:2959495/3" locally_modified="yes" type="model">
 <description>CHIP, 1.6 X 0.8 X 0.8 mm body
 &lt;p&gt;CHIP package with body size 1.6 X 0.8 X 0.8 mm&lt;/p&gt;</description>
@@ -871,16 +864,23 @@
 <packageinstance name="LEDC1608X80_LED-0603"/>
 </packageinstances>
 </package3d>
+<package3d name="LED_PTH_T-1_3/4_5MM" urn="urn:adsk.eagle:package:4254847/2" locally_modified="yes" type="model">
+<packageinstances>
+<packageinstance name="LED_PTH_T-1_3/4_5MM"/>
+</packageinstances>
+</package3d>
+<package3d name="LEDC1005X40" urn="urn:adsk.eagle:package:2899303/3" locally_modified="yes" type="model">
+<description>CHIP, 1 X 0.5 X 0.4 mm body
+&lt;p&gt;CHIP package with body size 1 X 0.5 X 0.4 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="LEDC1005X40_LED-0402"/>
+</packageinstances>
+</package3d>
 <package3d name="LEDC2012X120" urn="urn:adsk.eagle:package:2966314/3" locally_modified="yes" type="model">
 <description>CHIP, 2 X 1.25 X 1.2 mm body
 &lt;p&gt;CHIP package with body size 2 X 1.25 X 1.2 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="LEDC2012X120_LED-0805"/>
-</packageinstances>
-</package3d>
-<package3d name="LED_PTH_T-1_3/4_5MM" urn="urn:adsk.eagle:package:4254847/2" locally_modified="yes" type="model">
-<packageinstances>
-<packageinstance name="LED_PTH_T-1_3/4_5MM"/>
 </packageinstances>
 </package3d>
 </packages3d>

@@ -996,10 +996,10 @@
 <wire x1="-1.27" y1="0" x2="0" y2="0" width="0.6096" layer="94"/>
 <wire x1="-1.27" y1="2.54" x2="0" y2="2.54" width="0.6096" layer="94"/>
 <wire x1="-1.27" y1="5.08" x2="0" y2="5.08" width="0.6096" layer="94"/>
-<text x="-2.54" y="-10.922" size="1.27" layer="96" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
+<text x="1.27" y="-10.668" size="0.635" layer="96" font="vector" ratio="10" align="top-right">&gt;VALUE</text>
 <wire x1="-7.62" y1="7.62" x2="-7.62" y2="-10.16" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="7.62" x2="1.27" y2="7.62" width="0.4064" layer="94"/>
-<text x="-2.54" y="8.382" size="1.27" layer="95" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="1.27" y="8.382" size="1.27" layer="95" font="vector" ratio="10" align="bottom-right">&gt;NAME</text>
 <wire x1="1.27" y1="-10.16" x2="-7.62" y2="-10.16" width="0.4064" layer="94"/>
 <wire x1="1.27" y1="-10.16" x2="1.27" y2="7.62" width="0.4064" layer="94"/>
 <pin name="GND" x="5.08" y="-7.62" visible="pin" length="middle" direction="pwr" rot="R180"/>
